@@ -1,1 +1,1 @@
-# Avatar3D
+# AvatarAI
