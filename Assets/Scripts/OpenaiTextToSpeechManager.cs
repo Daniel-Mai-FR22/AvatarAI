@@ -8,7 +8,7 @@ using UnityEngine.Networking;
 
 public class OpenaiTextToSpeechManager : Singleton<OpenaiTextToSpeechManager> {
 
-    private string OPENAI_KEY = "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";
+    private string OPENAI_KEY = "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";
 
     public async Task<AudioClip> CreateTextToSpeech(string text) {
         var path = $"https://api.openai.com/v1/audio/speech";
